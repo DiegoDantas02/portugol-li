@@ -1,0 +1,16 @@
+programa {
+	funcao inicio()
+	{
+	real n1, n2
+	
+	escreva("Escolha um número :")
+	leia (n1)
+	
+	escreva("Escolha um segundo número :")
+	leia (n2)
+	
+	
+	escreva("Seu número foi: ", n1 + n2 ,   "\n")
+
+	}
+}
