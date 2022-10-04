@@ -1,0 +1,27 @@
+programa {
+	funcao inicio()
+	{
+
+	real nota1, nota2 , nota3 , nota4, media
+	
+  ////////////////////////////////////////////////
+
+	escreva("Digite Suas Quatro notas bimestrais! :> "," \n")
+  
+  ////////////////////////////////////////////////
+	escreva("Digite Sua Primeira nota: ")
+  leia(nota1)
+  escreva("Digite Sua Segunda nota: ")
+  leia(nota2)
+  escreva("Digite Sua Terceira nota: ")
+  leia(nota3)
+  escreva("Digite Sua Quarta nota: ")
+  leia(nota4)
+	////////////////////////////////////////////////
+  media = (nota1 + nota2 + nota3 + nota4 )/4
+	////////////////////////////////////////////////
+	escreva("Sua média Bimestral Foi: ", media, "\n") 
+  leia(media)
+  
+	}
+}
