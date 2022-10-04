@@ -1,0 +1,12 @@
+programa {
+	funcao inicio()
+	{
+	caracter numero
+
+	escreva("Escolha um número :")
+	leia (numero)
+	
+	escreva("Seu número foi: ", numero,  "\n")
+
+	}
+}
