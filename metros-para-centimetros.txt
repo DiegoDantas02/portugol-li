@@ -1,0 +1,14 @@
+programa {
+  funcao inicio() 
+  {
+    real x
+    //////////////////////////
+    escreva("Insira Um Valor em metros a ser convertido : ")
+    leia(x)
+    //////////////////////////
+    x = x * 100
+    /////////////////////////
+    escreva("A Medida em centimentros é : ", x ,"cm" "\n")
+  
+  }
+}
