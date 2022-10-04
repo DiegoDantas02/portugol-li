@@ -1,0 +1,14 @@
+programa {
+  funcao inicio() 
+  {
+    real valorReal, valorDolar
+    // $1 = R$5,30
+    //////////////////////////
+    escreva("Digite o Valor a ser convertido : R$ ")
+    leia(valorReal)
+    /////////////////////////
+    valorDolar = valorReal / 5.3
+    ////////////////////////
+    escreva("\n\nValor Convertido $" , valorDolar , "\n\n")
+  }
+}
