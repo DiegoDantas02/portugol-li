@@ -1,0 +1,24 @@
+programa {
+  funcao inicio() 
+  {
+  inicio
+
+Faça um Programa que peça dois números e imprima o maior deles
+caracter num1 , num2
+
+  escreva(tt Escolha seu Primeiro número  )
+    leia(num1)
+
+    escreva(tttt Escolha seu Segundo número  )
+      leia(num2)
+
+    escreva( ttttttSeu maior número  Digitado é   )
+          se 
+            num1  num2
+            escreva(num1)
+          senao 
+            escreva(num2)
+
+  fim.
+  }
+}
