@@ -1,0 +1,20 @@
+programa {
+  funcao inicio() 
+  {
+  real area, raio  
+//inicio//
+ 
+  // Lendo o valor do raio da circunferência //
+  escreva("Informe o raio de uma circunferência : ") 
+  leia(raio) 
+ 
+  // Calculando e armazenando a área //
+  area = 3.14 * (raio * raio) 
+ 
+  // Mostrando para o usuário a área calculado //
+  escreva("A Área da circunferência é: ", area, "\n") 
+ 
+//fim.//
+    
+  }
+}
