@@ -5,7 +5,7 @@ programa {
 	 inteiro media = 7 
 	
 escreva("Escreva sua primeira nota:") 
-	Leia(nota1) 
+	leia(nota1) 
 escreva("Escreva sua segunda nota:") 
 	leia(nota2) 
 escreva("Escreva sua terceira nota:") 
