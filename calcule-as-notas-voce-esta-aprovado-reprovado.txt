@@ -2,7 +2,7 @@ programa {
 	funcao inicio() 
 {
  	inteiro calculo , nota1,nota2,nota3
-	 inteiro media = 5 
+	 inteiro media = 7 
 	
 escreva("Escreva sua primeira nota:") 
 	Leia(nota1) 
