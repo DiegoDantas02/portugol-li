@@ -1,0 +1,20 @@
+programa {
+	funcao inicio() 
+{
+ 	inteiro calculo , nota1,nota2,nota3
+	 inteiro media = 5 
+	
+escreva("Escreva sua primeira nota:") 
+	Leia(nota1) 
+escreva("Escreva sua segunda nota:") 
+	leia(nota2) 
+escreva("Escreva sua terceira nota:") 
+	leia(nota3)
+ calculo = (nota1 + nota2 + nota3) /3 
+   	se (calculo >= media)
+{ 
+  escreva("Você foi aprovado!!") 
+} 
+senao{ escreva("Você foi reprovado!!") } 
+   }
+ }
