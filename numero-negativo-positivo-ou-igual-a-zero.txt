@@ -1,0 +1,22 @@
+programa{
+  
+  funcao inicio(){
+    // ler um número e dizer se é negativo, positivo ou zero
+    inteiro num
+    
+    escreva("\t\t\t\tDigite um número qualquer: ")
+    leia(num)
+
+    se(num < 0){
+      escreva("\t\t\t O número digitado é Negativo...\n")
+    }
+    senao{
+      se(num > 0){
+        escreva("\t\t\t O número digitado é Positivo...\n")
+      }
+      senao{
+        escreva("\t\t\t O número digitado é Igual a zero!\n")
+      }
+    }
+  }
+}
