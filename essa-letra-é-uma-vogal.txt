@@ -1,0 +1,31 @@
+programa {
+	funcao inicio() 
+	{
+	    caracter x
+	    
+	    escreva("\t\t\t\t\t\t Digite uma Letra de A até Z...--> : ")
+	    leia(x)
+	    escolha (x)
+	    {
+	                caso 'a':
+	            escreva("\t\t\t\t\tVocê escolheu a Vogal!!! Que foi ->  ", x)
+	            pare
+	                caso 'e':
+	            escreva("\t\t\t\t\tVocê escolheu a Vogal!!! Que foi ->  ", x)
+	            pare
+	                caso 'i':
+	            escreva("\t\t\t\t\tVocê escolheu a Vogal!!! Que foi ->  ", x)
+	            pare
+	                caso 'o':
+	            escreva("\t\t\t\t\tVocê escolheu a Vogal!!! Que foi ->  ", x)
+	            pare
+	               caso 'u':
+	            escreva("\t\t\t\t\tVocê escolheu a Vogal!!! Que foi ->  ", x)
+	            
+	            
+	     caso contrario:
+	        escreva("\t\t\t\t\tVocê Não Digitou uma vogal! ! ! ..... tente novamente! ! \t\t\t\t\t")
+	     
+	    }
+	}
+}
