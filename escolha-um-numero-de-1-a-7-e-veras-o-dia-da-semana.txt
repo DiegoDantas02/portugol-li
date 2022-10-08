@@ -1,0 +1,40 @@
+programa {
+	funcao inicio() {
+	//Faça um Programa que leia um número e exiba o dia correspondente da semana. (1-Domingo, 2- Segunda, etc.), se digitar outro valor deve aparecer valor inválido.
+	
+	caracter x
+	
+	    escreva("\t\t\t\t\t\t Digite um número de 1 até 7 ...--> : ")
+	    leia(x)
+	     escolha (x)
+	    {
+	                             caso '1':
+	        escreva("\t\t\t\t\t Hoje é Segunda-feira :> ", x)
+	       pare
+        	   caso '2':
+        	 escreva("\t\t\t\t\tHoje é Terça-feira :>  ", x)
+        	pare
+                caso '3':
+            escreva("\t\t\t\t\tHoje é Quarta-feira :>   ", x)
+            pare
+                caso '4':
+            escreva("\t\t\t\t\tHoje é Quinta-feira :>   ", x)
+            pare
+                caso '5':
+             escreva("\t\t\t\t\tHoje é sexta-feira :>   ", x)
+            pare
+                caso '6':
+             escreva("\t\t\t\t\tHoje é Sabado!! (Dia de Descansar) :>   ", x)
+            pare
+                                 caso '7':
+                         escreva("Hoje é Domingo    ", x)
+                                           	            
+                
+
+	     caso contrario:
+	        escreva("\t\t\t\t\tVocê Não Digitou um número Valido! ! ! ..... tente novamente! ! \t\t\t\t\t")
+
+	     
+	    }
+	}
+}
