@@ -1,0 +1,23 @@
+programa {
+    funcao inicio() {
+        
+        cadeia   nome
+        real     valor
+        caracter resposta
+        //Quanto Você recebe por mês & Valor anualmente
+        
+        escreva ("Qua é seu nome ? ")
+        leia (nome)
+        escreva ("-----------------------------\n")
+        escreva ("Quanto você ganha por mês ? \n")
+        leia (valor)
+        escreva("-----------------------------\n")
+        escreva("O funcionário ", nome, " recebe por mês R$", valor, "\n")
+        escreva("-------------------------------\n")
+        escreva("O valor do salário anual é de R$", valor * 12, "\n")
+        escreva("-------------------------------\n")
+     
+        
+            
+    }
+}
