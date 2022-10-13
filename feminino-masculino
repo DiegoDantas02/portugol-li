@@ -1,0 +1,21 @@
+//Faça um Programa que verifique se uma letra digitada é "F" ou "M". Conforme a letra escrever: F - Feminino, M - Masculino, Sexo Inválido.  
+  programa
+{
+    
+    funcao inicio()
+    {
+        caracter sexo
+        
+        escreva (" Digite seu sexo > M / F: ")
+        leia (sexo)
+    
+        se (sexo == 'm')
+        {
+            escreva (" Seu sexo é masculino")
+        }
+        senao
+        {
+            escreva (" Seu sexo é feminino")
+        }
+    }
+}
