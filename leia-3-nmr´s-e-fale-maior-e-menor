@@ -1,0 +1,54 @@
+//Faça um Programa que leia três números e mostre o maior e o menor deles.
+  programa {
+    funcao inicio() {
+	inteiro n1, n2, n3
+
+
+	escreva("\nInforme o primeiro número: ")
+	leia(n1)
+
+	escreva("\nInforme o segundo número: ")
+	leia(n2)
+
+	escreva("\nInforme o terceiro número: ")
+	leia(n3)
+
+	se ( n1 > n2) {
+    		se (n1 > n3)
+    	{
+        escreva(" O primeiro número é o maior")
+    	}
+	}
+	se ( n2 > n3) {
+   	 se (n2 > n1)
+    	{
+        escreva(" O segundo número é o maior")
+    	}
+	}
+	se ( n3 > n1) {
+    	se (n3 > n2)
+    	{
+       		escreva(" O terceiro número é o maior")
+    	}
+	}
+	se ( n1 < n2) {
+    	se (n1 < n3)
+    	{
+        	escreva(" O primeiro número é o menor")
+    	}
+	}
+	se ( n2 < n3) {
+    	se (n2 < n1)
+    	{
+      	  escreva(" O segundo número é o menor")
+    	}
+	}
+	se ( n3 < n1) {
+    		se (n3 < n2)
+    	{
+       			 escreva(" O terceiro número é o menor")
+    	}
+	}
+    }
+}
+
