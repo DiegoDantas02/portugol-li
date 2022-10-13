@@ -1,0 +1,26 @@
+//Faça um programa que peça uma nota, entre zero e dez. Mostre uma mensagem caso o valor seja inválido e continue pedindo até que o usuário informe um valor válido.
+ programa {
+	funcao inicio() {
+	
+	    inteiro nota
+	    caracter resposta 
+	    
+	    
+	    resposta = 'I'
+	    enquanto (resposta == 'I')
+	    {
+	        escreva("Escreva o valor da nota : ")
+	        leia (nota)
+	        se (nota < 0 ou nota > 10)
+	        {
+	            escreva("Numero invalido\n")
+	            
+	        }
+	        senao 
+	        {
+	            escreva("Número valido\n")
+	            resposta = 'C'
+	        }
+	    }
+       }
+}
