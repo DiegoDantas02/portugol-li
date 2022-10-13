@@ -1,0 +1,66 @@
+//Faça um programa para a leitura de duas notas parciais de um aluno. O programa deve calcular a média alcançada por aluno e apresentar:
+- A mensagem "Aprovado", se a média alcançada for maior ou igual a sete;
+ -A mensagem "Reprovado", se a média for menor do que sete;
+ -A mensagem "Aprovado com Distinção", se a média for igual a dez.
+ programa
+{
+    
+    funcao inicio()
+    {
+        inteiro n1 , n2, n3 , n4 , n5, media1, media2, soma
+        cadeia nome1, nome2
+
+       escreva ("Escreva o nome do primeiro aluno: ")
+        leia (nome1)
+        escreva ("Digite as notas do aluno: ")
+        leia (n1)
+        leia (n2)
+        leia (n3)
+        leia (n4)
+        leia (n5)
+
+
+       soma= n1+n2+n3+n4+n5
+        media1= soma/5
+
+       escreva ("Escreva o nome do segundo aluno: ")
+        leia (nome2)
+        escreva ("Digite as notas do aluno: ")
+        leia (n1)
+        leia (n2)
+        leia (n3)
+        leia (n4)
+        leia (n5)
+
+       soma= n1+n2+n3+n4+n5
+        media2= soma/5
+
+        se (media1 >= 7)
+        {
+            escreva ("A media do aluno ",nome1," foi de ",media1," então ele foi aprovado!")
+        }
+        se (media1 < 7)
+        {
+            escreva ("A media do aluno ",nome1," foi de ",media1," então ele foi reprovado!")
+            
+        }
+        se (media1 == 10)
+        {
+            escreva (" Aprovado com distinção pois a média do aluno ",nome1," foi de ",media1," \n")
+        }
+
+   se (media2 >= 7)
+        {
+            escreva ("A media do aluno ",nome2," foi de ",media2," então ele foi aprovado!")
+        }
+        se (media2 < 7)
+        {
+            escreva ("A media do aluno ",nome2," foi de ",media2," então ele foi reprovado!")
+            
+        }
+        se (media2 == 10)
+        {
+            escreva (" Aprovado com distinção pois a média do aluno ",nome2," foi de ",media2)
+        }
+   }
+}
