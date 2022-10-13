@@ -1,0 +1,14 @@
+ //Faça um Programa que calcule a área de um quadrado, em seguida mostre o dobro desta área para o usuário.
+ programa {
+	funcao inicio() {
+	    
+	    real medida, calculo, area, dobro
+	    escreva("Digite a medida do lado de um quadrado : \n")
+	    leia(medida)
+	    area = (medida * medida)
+	    escreva("A area do quadrado é igual  ", area, "\n")
+	    dobro = area * 2
+	    escreva("O dobro da area é igual ", dobro)
+	    
+	}
+}
