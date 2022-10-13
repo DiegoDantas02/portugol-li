@@ -1,0 +1,18 @@
+//Faça um Programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês. Calcule e mostre o total do seu salário no referido mês.
+programa
+{
+    
+    funcao inicio()
+    {
+        real salario, salariocalculado
+        inteiro hora, mes=30
+        
+        escreva (" Digite o salario recebido por hora: ")
+        leia (salario)
+        escreva (" Digite a quantidade de horas trabalhadas: ")
+        leia (hora)
+        salariocalculado= salario*hora*mes
+        escreva("Seu sálario mensal é R$",salariocalculado)
+        
+    }
+}
