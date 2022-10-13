@@ -1,0 +1,20 @@
+//Faça um Programa que peça 2 números inteiros e um número real. Calcule e mostre:
+-o produto do dobro do primeiro com metade do segundo .
+-a soma do triplo do primeiro com o terceiro.
+-o terceiro elevado ao cubo.
+ programa {
+	funcao inicio() {
+		inteiro n1, n2
+		real n3, calculo
+		
+		escreva("Escreva um número inteiro: \n")
+		leia (n1)
+		escreva("Escreva outro numero inerio: \n")
+		leia (n2)
+		escreva("Escreva um número real: \n")
+		leia (n3)
+		calculo = n1 + n2 + n3
+		escreva("O calculo de todos os números é ", calculo)
+		
+	}
+}
