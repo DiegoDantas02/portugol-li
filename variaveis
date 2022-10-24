@@ -1,0 +1,32 @@
+programa {
+  funcao inicio() 
+  {
+   /*
+   tipos primitivos
+   inteiro
+   real
+   caracter
+   cadeia
+   */
+    inteiro idade, idade2
+    real peso, altura
+    caracter sexo
+    // string sequencia de caracteres
+    cadeia sexo2 /*As variaveis nunca podem ter o mesmo nome */
+
+  idade = 35 /*= <-- Esses dois traços quer dizer que 'Recebe idade de "35anos"*/
+  idade2 = 43
+  peso = 72.450
+  altura = 1.63
+  sexo = 'm' /*Caracteres unicos temos que colocar entre aspas simples e vice versa*/
+  sexo2 = "Masculina"
+    /*Já demos valores a todas as variaveis */
+    /*Agora vamos realizar comandos de saidas */
+
+  
+    escreva("Primeira idade: " , idade, "\n\t Segunda idade: ", idade2)/*Texto é sempre entre aspas duplas */
+    escreva("\n\t\t\tPeso: ", peso, "\n\t\t\tAltura: ", altura )
+    escreva("\n\t\t\t\t\t\tSexo: ", sexo, "\n\t\t\t\t\t\tSexo: ", sexo2 )
+  }
+
+}
