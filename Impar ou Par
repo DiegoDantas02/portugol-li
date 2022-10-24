@@ -1,0 +1,19 @@
+programa {
+  funcao inicio() 
+  {
+    inteiro num1
+
+    escreva("Digite um número inteiro: ")
+    leia(num1)
+  
+  escreva("Resto da divisão por 2: " , num1 % 2 )
+
+  se(num1 % 2 == 0){
+    escreva("\nSeu Numero é par !!")
+
+  }
+   senao{
+    escreva("\nSeu número Digitado é Impar! ! !")
+   } 
+  }
+}
