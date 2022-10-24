@@ -1,0 +1,21 @@
+programa {
+  funcao inicio() 
+  {
+    inteiro valor1, valor2, soma, sub, mult, resto
+    real div
+    
+    escreva("Digite dois valores inteiros: ")
+    leia(valor1, valor2)
+     
+        /*atribuição*/
+     soma = valor1 + valor2
+     sub = valor1 - valor2
+     mult = valor1 * valor2
+     div = valor1 / valor2
+     resto = valor1 % valor2
+
+     escreva("\nSoma de ", valor1, "+", valor2, "=", soma)
+     /*Se for realizar dos outros sinais, somente alterar o 'escreva' e/ou criar outro escreva*/
+     
+  }
+}
