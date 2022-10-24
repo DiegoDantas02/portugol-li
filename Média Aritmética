@@ -1,0 +1,13 @@
+programa {
+  funcao inicio() {
+     real valor1,valor2, media
+
+     escreva("Digite dois valores: ")
+     leia(valor1,valor2)
+
+     media = (valor1 + valor2) / 2
+
+  escreva("\n A Média Aritmética é: ", media, "\n")
+    
+  }
+}
