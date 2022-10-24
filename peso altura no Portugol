@@ -1,0 +1,14 @@
+programa {
+  funcao inicio() 
+  {
+     real peso, altura
+
+    escreva("Digite seu peso : ")
+    leia(peso)
+
+    escreva("\nDigite sua altura: ")
+    leia(altura)
+
+    escreva("O usuário pesa: ", peso, "KG e possui ", altura, " Metros de altura! ! ! ")
+  }
+}
