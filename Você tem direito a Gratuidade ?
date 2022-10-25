@@ -1,0 +1,34 @@
+programa {
+  funcao inicio() {
+   
+    inteiro idade
+
+    escreva("Digite sua idade: ")
+    leia(idade)     
+///////////////// ou
+
+se (idade  < 6 ou idade > 59){
+  escreva("Tem Direito a gratuidade.\n")
+
+}
+senao{
+    escreva("Não tem direito a gratuidade.\n")
+  }
+  /////////////// e
+  se (idade > 5 e idade < 60){
+      escreva("Não tem direito a gratuidade.\n")
+  }
+  senao{
+    escreva("Tem Direito a gratuidade.\n")
+  }
+  /////////////// ! --> nao
+    se ( nao (idade > 5 e idade < 60)){
+      escreva("Tem Direito a gratuidade.\n")
+      
+  }
+  senao{
+    escreva("Não tem direito a gratuidade.\n")
+    
+  }
+ }
+}
